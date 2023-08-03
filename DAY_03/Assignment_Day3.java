@@ -1,4 +1,4 @@
-// package DAY_03;
+package DAY_03;
 import java.util.Scanner;
 public class Assignment_Day3{
 public static void main(String[]args){
