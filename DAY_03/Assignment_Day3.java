@@ -68,7 +68,7 @@ System.out.println("enter your following detect odd or even");
  
  
 
-        if(Article =='a'|| Article =='e'||  Article =='i'|| Article =='o' || Article =='u'){
+        if(Article =='a'|| Article =='e'||  Article =='i'|| Article =='o' || Article =='u'||Article =='A'|| Article =='E'||  Article =='I'|| Article =='O' || Article =='U'){
             System.out.println("this is atricle");
         }
         else{
