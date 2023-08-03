@@ -63,7 +63,7 @@ System.out.println("enter your following detect odd or even");
         }
 
  System.out.println("enter your following detect vowels or not");
- System.out.println("enter your number");
+ System.out.println("enter your alphabet");
  char Article = sc.next().charAt(0);
  
  
@@ -73,6 +73,19 @@ System.out.println("enter your following detect odd or even");
         }
         else{
             System.out.println("not a article");
+        }
+
+ System.out.println("enter your following detect alphabet or not");
+ System.out.println("enter your alphabet");
+ char alphabet = sc.next().charAt(0);
+ 
+ 
+
+        if((alphabet >='a'&& alphabet <='z') ||(alphabet >='A'&& alphabet <='Z' )){
+            System.out.println("this is alphabet");
+        }
+        else{
+            System.out.println("this is not alphabet");
         }
 
 
