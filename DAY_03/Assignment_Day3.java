@@ -39,7 +39,28 @@ else{
     System.out.println("sry this not number");
 }
 
+System.out.println("enter your following detect odd or even");
+ System.out.println("enter your number");
+ int num = sc.nextInt();
 
-    
+        if(num%2==0){
+            System.out.println("number is even");
+        }
+        else{
+            System.out.println("number is odd");
+        }
+
+ System.out.println("enter your following detect Leap year not");
+ System.out.println("enter your number");
+ int leap = sc.nextInt();
+
+        if(leap%4==0){
+            System.out.println("number is leap");
+        }
+        else{
+            System.out.println("not a leap year");
+        }
+
+
 }
 }
