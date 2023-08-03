@@ -1,6 +1,7 @@
 package DAY_03;
 import java.util.Scanner;
 public class Assignment_Day3{
+
 public static void main(String[]args){
     Scanner sc = new Scanner(System.in);
 System.out.println("enter the first number");
@@ -59,6 +60,19 @@ System.out.println("enter your following detect odd or even");
         }
         else{
             System.out.println("not a leap year");
+        }
+
+ System.out.println("enter your following detect vowels or not");
+ System.out.println("enter your number");
+ char Article = sc.next().charAt(0);
+ 
+ 
+
+        if(Article =='a'|| Article =='e'||  Article =='i'|| Article =='o' || Article =='u'){
+            System.out.println("this is atricle");
+        }
+        else{
+            System.out.println("not a article");
         }
 
 
