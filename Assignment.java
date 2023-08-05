@@ -18,7 +18,7 @@ import java.util.Scanner;
         System.out.println("try again");
         for(passwdr =0; passwdr<=3; passwdr++)
         {
-        return;
+        break;
         }
         
         
