@@ -15,12 +15,13 @@ import java.util.Scanner;
         else{
         System.out.println("renter not match");
         passwd= sc.nextInt();
-        System.out.println("try again");
-        for(passwdr =0; passwdr<=3; passwdr++)
+       
+        for(passwdr =0; passwdr<3; passwdr++)
         {
         break;
+    
         }
-        
+        System.out.println("try again");
         
         
         
