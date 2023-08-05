@@ -9,16 +9,16 @@ import java.util.Scanner;
         System.out.println("r-enter the password");
         int passwdr=sc.nextInt();
         
-        if(passwd == passwd2){
+        if(passwd == passwdr){
         System.out.println("passwd is match");
     }
         else{
         System.out.println("renter not match");
         passwd= sc.nextInt();
         System.out.println("try again");
-        for(passwdr;passwdr<=3;passwdr++)
+        for(passwdr =0; passwdr<=3; passwdr++)
         {
-         System.out.println("try again");   
+        return;
         }
         
         
