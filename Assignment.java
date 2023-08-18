@@ -1,31 +1,26 @@
-
+// package DAY_02;
 import java.util.Scanner;
- class Assignment{
-    public static void main(String[] args){
-        
-        Scanner sc=new Scanner(System.in);
-        System.out.println("enter ther passwd");
-        int passwd=sc.nextInt();
-        System.out.println("r-enter the password");
-        int passwdr=sc.nextInt();
-        
-        if(passwd == passwdr){
-        System.out.println("passwd is match");
-    }
-        else{
-        System.out.println("renter not match");
-        passwd= sc.nextInt();
-       
-        for(passwdr =0; passwdr<3; passwdr++)
+public class passwordattempt
+{
+    public static void main (String [] args)
+    {
+        final String PASSWORD = "12345";
+
+        for (int passAttempts = 0; passAttempts < 3; passAttempts++) 
         {
-        break;
-    
+            System.out.print("\nEnter Your Password: ");
+            Scanner input = new Scanner(System.in);
+            String inputPass = input.nextLine();
+
+            if (!(inputPass.equals(PASSWORD))) 
+            {
+                System.out.println("\nWrong Password Try Again");
+            } 
+            else 
+            {
+                System.out.println("\nWelcome!");
+                break;
+            }
         }
-        System.out.println("try again");
-        
-        
-        
+    }
 }
-}}
-
-
